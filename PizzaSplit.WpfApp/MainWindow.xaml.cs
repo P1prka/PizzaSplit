@@ -51,4 +51,13 @@ public partial class MainWindow : Window
             ErrorTextBlock.Text = error;
         }
     }
+    private void Clear_Click(object sender, RoutedEventArgs e)
+    {
+        TotalTextBox.Clear();
+        PeopleTextBox.Clear();
+        TipCheckBox.IsChecked = false;
+        ResultTextBlock.Text = "";
+        ErrorTextBlock.Text = "";
+        TotalTextBox.Focus();
+    }
 }

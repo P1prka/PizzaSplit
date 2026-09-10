@@ -18,7 +18,10 @@
 
         <Button Content="Arvuta"
                 Click="Calculate_Click"/>
-
+        
+        <Button Content="Tühjenda"
+                Click="Clear_Click"/>
+        
         <TextBlock x:Name="ResultTextBlock"/>
 
         <TextBlock x:Name="ErrorTextBlock"/>
